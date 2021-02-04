@@ -15,7 +15,6 @@ public class BaseTest {
     protected WebDriver driver;
     protected Logger log;
 
-
     @Parameters({ "browser" })
     @BeforeMethod (alwaysRun = true)
     public void setUp(@Optional("chrome") String browser, ITestContext ctx) {
